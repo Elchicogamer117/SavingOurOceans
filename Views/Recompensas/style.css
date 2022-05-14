@@ -3,9 +3,16 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
 }
-.rowt{
-      height: 200px;
+.rowt {
+      height: 100px;
 }  
-.rowu{
+.rowu {
       height: 40px;
 } 
+
+@media (max-width: 864px) {
+      body {
+            background-size: auto;
+      }
+      
+}
