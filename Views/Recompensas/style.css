@@ -1,0 +1,11 @@
+body {
+      background-image:url(waveComplete.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.rowt{
+      height: 200px;
+}  
+.rowu{
+      height: 40px;
+} 
