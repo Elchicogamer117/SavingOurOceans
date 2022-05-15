@@ -1,4 +1,7 @@
-
+const Reader = require('/../../../../../Users/Novucentral/savingouroceansfrtnd/app/lib/utils/Reader')
+const task = Reader.readJsonFile("taskDummyVistas.json"); 
+const rewards = Reader.readJsonFile("rewadsDummyVistas.json"); 
+const user = Reader.readJsonFile("userDummyVistas.json"); 
 
 class ConsumeServicioApiRewards{
     static createRewards(id,sponsor,code,pointsValue,name,type,deadLine){
@@ -38,6 +41,13 @@ class ConsumeServicioApiRewards{
 }
 
 class ConsumeServicioApiTaskS  {
+	
+	static createTask(task){
+
+		
+		return new Task(id,description,points,itsDone, itsAvailable);
+	}
+	
 
 }
 
