@@ -1,5 +1,4 @@
-const Reader = require('/../../../../../Users/Novucentral/savingouroceansfrtnd/app/lib/utils/Reader')
-
+const Reader= require('./../../lib/utils/Reader')
 
     test("1.Leer archivo rewads Json que no existe", ()=>{
      const rewards = Reader.readJsonFile("rewadsDummyVistas.json"); 
