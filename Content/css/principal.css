@@ -6,6 +6,17 @@ body {
       height: 800px;
       background-color: #055AFF;
 }
+body::-webkit-scrollbar {
+      width: 10px;
+      background:rgba(5, 88, 255,1);
+}
+body::-webkit-scrollbar-thumb{
+      background: #FFFFFF;
+      border-radius: 5px;
+}
+body::-webkit-scrollbar:horizontal {
+      display: none;
+}
 .mainText {
       text-align: center;
       padding-top: 75px;
@@ -28,6 +39,12 @@ body {
 .card-text {
       font-size: 20px;
       color: #FFFFFF;
+}
+.admin-user {
+      color: rgb(0, 145, 255) !important;
+}
+.regis {
+      color: rgb(45, 175, 25) !important;
 }
 
 @media (max-width: 640px) {
