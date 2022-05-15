@@ -23,4 +23,14 @@ test("4.Consumir servicio post Info de Api updateItsDone", ()=>{
     expect(respuestagUpdateItsDone).toBeDefined();
 })
 
+test("4.Consumir servicio post Info de Api updateItsDone", ()=>{ 
+    const respuestagUpdateItsDone = ConsumeServicioApiTaskS.updateItsDone(task.id, task.isDone);
+    expect(respuestagUpdateItsDone).toBeDefined();
+})
+
+test("5.Consumir servicio post Info de Api getPoints", ()=>{ 
+    const respuestaGetPoints = ConsumeServicioApiTaskS.getPoints(task.id, task.points);
+    expect(respuestaGetPoints).toBeDefined();
+})
+
 
