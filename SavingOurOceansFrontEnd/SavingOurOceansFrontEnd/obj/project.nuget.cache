@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CEkadUyVsDbxbUc6T8Wuq5tSLr01Pu/OR0rNkOfn68Fy71BjiRNQpHMbhWtmjiCJVfYYOTJSNCAdq2Devd+3Pg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Novucentral\\source\\repos\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Novucentral\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}
