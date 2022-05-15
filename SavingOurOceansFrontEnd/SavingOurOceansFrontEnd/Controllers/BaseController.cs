@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using SavingOurOceansFrontEnd.Models;
 using System;
@@ -12,8 +13,11 @@ namespace SavingOurOceansFrontEnd.Controllers
 {
     public class BaseController : Controller
     {
-       
 
-      
+        public BaseController(IConfiguration confi)
+        {
+
+        }
+
     }
 }
