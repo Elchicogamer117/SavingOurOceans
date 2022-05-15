@@ -40,6 +40,12 @@ body::-webkit-scrollbar:horizontal {
       font-size: 20px;
       color: #FFFFFF;
 }
+.admin-user {
+      color: rgb(0, 145, 255) !important;
+}
+.regis {
+      color: rgb(45, 175, 25) !important;
+}
 
 @media (max-width: 640px) {
       .title {
