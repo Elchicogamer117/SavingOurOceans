@@ -14,13 +14,8 @@ test("2.Consumir servicio post Info de Api createTask", ()=>{
 })
 
 test("3.Consumir servicio post Info de Api updateItsAvailable", ()=>{ 
-    const respuestagUpdateItsAvailable = ConsumeServicioApiTaskS.createTask(task.id, task.isAvailable);
+    const respuestagUpdateItsAvailable = ConsumeServicioApiTaskS.updateItsAvailable(task.id, task.isAvailable);
     expect(respuestagUpdateItsAvailable).toBeDefined();
-})
-
-test("4.Consumir servicio post Info de Api updateItsDone", ()=>{ 
-    const respuestagUpdateItsDone = ConsumeServicioApiTaskS.updateItsDone(task.id, task.isDone);
-    expect(respuestagUpdateItsDone).toBeDefined();
 })
 
 test("4.Consumir servicio post Info de Api updateItsDone", ()=>{ 
