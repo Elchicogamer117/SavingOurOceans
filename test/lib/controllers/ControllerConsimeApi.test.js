@@ -1,1 +1,1 @@
-const ConsumeServicioApiRewards = require("./../../lib/controllers")
+const ConsumeServicioApiRewards = require("./../../lib/utils/Reader.test")
