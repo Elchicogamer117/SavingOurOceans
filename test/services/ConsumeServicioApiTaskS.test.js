@@ -29,8 +29,12 @@ test("4.Consumir servicio post Info de Api updateItsDone", ()=>{
 })
 
 test("5.Consumir servicio post Info de Api getPoints", ()=>{ 
-    const respuestaGetPoints = ConsumeServicioApiTaskS.getPoints(task.id, task.points);
+    const respuestaGetPoints = ConsumeServicioApiTaskS.getPoints(task.id);
     expect(respuestaGetPoints).toBeDefined();
 })
 
+test("6.Consumir servicio post Info de Api updatePoints", ()=>{ 
+    const respuestaUpdatePoints = ConsumeServicioApiTaskS.updatePoints(task.id, task.points);
+    expect(respuestaUpdatePoints).toBeDefined();
+})
 
