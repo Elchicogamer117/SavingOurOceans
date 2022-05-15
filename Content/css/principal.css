@@ -46,7 +46,9 @@ body::-webkit-scrollbar:horizontal {
 .regis {
       color: rgb(45, 175, 25) !important;
 }
-
+.coral {
+      height: 80px;
+}
 @media (max-width: 640px) {
       .title {
             font-size: 40px;
