@@ -40,15 +40,23 @@ class ConsumeServicioApiRewards{
 
 }
 
-class ConsumeServicioApiTaskS  {
-	
-	static createTask(task){
-
-		
-		return new Task(id,description,points,itsDone, itsAvailable);
+class ConsumeServicioApiTaskS  {	
+	static getInfo(task){
+		const url= `https://api/createTask${task.id}`;
+		fetch(url.then((res) => {
+			if (res.status != "200") {
+				console.log(res);			
+			}
+			else {
+				return  res.json();
+			}
+		}
+		)).then((data) => {
+			//aqui llega el json de respuesta de api
+			console.log(data);
+			return data;
+		});	
 	}
-	
-
 }
 
 class ConsumeServicioApiUser  {
