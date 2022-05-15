@@ -8,3 +8,11 @@ test("1.Consumir servicio get Info de Api task", ()=>{
     const respuestagetInfo = ConsumeServicioApiTaskS.getInfo(taskId);
     expect(respuestagetInfo).toBeDefined();
 })
+
+test("1.Consumir servicio get Info de Api createTask", ()=>{
+    
+    const respuestagetInfo = ConsumeServicioApiTaskS.createTask(task);
+    expect(task).toBeDefined();
+})
+
+
