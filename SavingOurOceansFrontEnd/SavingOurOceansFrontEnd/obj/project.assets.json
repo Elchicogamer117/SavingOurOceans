@@ -8,31 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Novucentral\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {}
+    "C:\\Users\\cris1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Novucentral\\Desktop\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\cris1\\Documents\\HackOcean\\version mejorada\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd.csproj",
       "projectName": "SavingOurOceansFrontEnd",
-      "projectPath": "C:\\Users\\Novucentral\\Desktop\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd.csproj",
-      "packagesPath": "C:\\Users\\Novucentral\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Novucentral\\Desktop\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\obj\\",
+      "projectPath": "C:\\Users\\cris1\\Documents\\HackOcean\\version mejorada\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd.csproj",
+      "packagesPath": "C:\\Users\\cris1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cris1\\Documents\\HackOcean\\version mejorada\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Novucentral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Users\\cris1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -61,12 +55,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.23, 3.1.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -75,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

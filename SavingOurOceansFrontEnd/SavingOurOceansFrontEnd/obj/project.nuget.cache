@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0fFyN1sdtTF/WeWsLtZYbxbKW4JZ+P2AV7raVIJvT6SGoKhF3QWWJnEudbKUpoD+ICN7zV9JBSia+wbFRpiyDQ==",
+  "dgSpecHash": "OMED/FAzq7DC5LmcWFFWg+7t2nAu2Dmrug3xloFh7sWI+hQymMPk/6//5MMg0QDOlaXnj5pzLBQBMsNH95YAUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Novucentral\\Desktop\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Novucentral\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\cris1\\Documents\\HackOcean\\version mejorada\\savingouroceansfrtnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd\\SavingOurOceansFrontEnd.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
