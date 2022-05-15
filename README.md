@@ -1,5 +1,7 @@
 # SavingOurOceans-Backend 🐳
 
+
+
 ## Herramientas 🐋
 
 | Herramientas | Version |
@@ -19,13 +21,9 @@
 | ![img](image/README/1652657333177.png) | Incentivar al usuario a que se cree una cuenta y pueda formar parte del cambio para mejorar nuestro medio ambiente.                        |              |
 | ![img](image/README/1652657412122.png) | Hacerle ver las tareas y recompensas que existen.                                                                                          |              |
 
-## Implementación
-
-### Modelos
 
 ### Controladores y Servicios
 
-### Utilidades
 
 ### Pruebas
 
@@ -134,6 +132,3 @@ __Evolución Previsible:__
 
 Atomatización de actions github para revisión de pruebas cada que se de push.
 
-### Deployment de Aplicación
-
-`npm install`
