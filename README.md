@@ -119,6 +119,13 @@ __Evolución Previsible:__
 
 Terminar la creción de pruebas unitarias para todos los métodos de todas las APIS, para el controller que manejará la información.
 
+Se deja construida la estructura:
+
+![image](https://user-images.githubusercontent.com/99162884/168500007-1c492649-03f5-4c81-b05f-fee09b2120bd.png)
+
+
+
+
 ### Automatización de Pruebas
 
 No se incluyo automatización de pruebas, ya que se priorizaron todos los esfuerzos en las prebas unitarias para consumir los métodos de la API Task.
