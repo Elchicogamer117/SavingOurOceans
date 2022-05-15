@@ -2,7 +2,6 @@ const ConsumeServicioApiTaskS= require('./../../lib/services/ConsumeServicioApiT
 const Reader= require('./../../lib/utils/Reader')
 const task = Reader.readJsonFile("taskDummyVistas.json"); 
 
-
 test("1.Consumir servicio post Info de Api task", ()=>{
     const taskId = task.id;
     const respuestagetInfo = ConsumeServicioApiTaskS.getInfo(taskId);
@@ -17,6 +16,11 @@ test("2.Consumir servicio post Info de Api createTask", ()=>{
 test("3.Consumir servicio post Info de Api updateItsAvailable", ()=>{ 
     const respuestagUpdateItsAvailable = ConsumeServicioApiTaskS.createTask(task.id, task.isAvailable);
     expect(respuestagUpdateItsAvailable).toBeDefined();
+})
+
+test("4.Consumir servicio post Info de Api updateItsDone", ()=>{ 
+    const respuestagUpdateItsDone = ConsumeServicioApiTaskS.updateItsDone(task.id, task.isDone);
+    expect(respuestagUpdateItsDone).toBeDefined();
 })
 
 
