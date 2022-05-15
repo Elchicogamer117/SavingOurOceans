@@ -8,7 +8,6 @@
     <Folder Include="Views\Articulo\" />
     <Folder Include="Views\Login\" />
     <Folder Include="Views\PuntosInfoUser\" />
-    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
 </Project>

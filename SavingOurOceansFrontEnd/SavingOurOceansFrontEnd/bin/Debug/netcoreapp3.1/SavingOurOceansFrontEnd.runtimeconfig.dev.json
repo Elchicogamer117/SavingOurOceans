@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Novucentral\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Novucentral\\.nuget\\packages",
-      "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+      "C:\\Users\\cris1\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\cris1\\.nuget\\packages"
     ]
   }
 }
