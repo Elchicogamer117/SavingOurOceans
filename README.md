@@ -12,12 +12,12 @@
 
 ## Diseño de Solución
 
-| Vista                                | Propósito                                                                                                           | Interacción |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------ |
-| ![img](image/README/1652657209202.png) | Informar al usuario de nuestra misión y hacer conciencia de lo que pasa actualmente con nuestros mantos acuíferos. |              |
-| ![img](image/README/1652657323232.png) |                                                                                                                      |              |
-| ![img](image/README/1652657333177.png) |                                                                                                                      |              |
-| ![img](image/README/1652657412122.png) |                                                                                                                      |              |
+| Vista                                | Propósito                                                                                                                                 | Interacción |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| ![img](image/README/1652657209202.png) | Informar al usuario de nuestra misión y hacer conciencia de lo que pasa actualmente con nuestros mantos acuíferos.                       |              |
+| ![img](image/README/1652657323232.png) | Iniciar sesión para que el usuario pueda disfrutar de sus beneficios que ha ido generando con un cambio tangible hacia el medio ambiente. |              |
+| ![img](image/README/1652657333177.png) | Incentivar al usuario a que se cree una cuenta y pueda formar parte del cambio para mejorar nuestro medio ambiente.                        |              |
+| ![img](image/README/1652657412122.png) | Hacerle ver las tareas y recompensas que existen.                                                                                          |              |
 
 ## Implementación
 
