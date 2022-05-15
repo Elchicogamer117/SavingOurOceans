@@ -6,6 +6,17 @@ body {
       height: 800px;
       background-color: #055AFF;
 }
+body::-webkit-scrollbar {
+      width: 10px;
+      background:rgba(5, 88, 255,1);
+}
+body::-webkit-scrollbar-thumb{
+      background: #FFFFFF;
+      border-radius: 5px;
+}
+body::-webkit-scrollbar:horizontal {
+      display: none;
+}
 .mainText {
       text-align: center;
       padding-top: 75px;
