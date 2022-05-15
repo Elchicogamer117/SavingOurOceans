@@ -1,0 +1,1 @@
+const ConsumeServicioApiRewards = require("./../../lib/controllers")

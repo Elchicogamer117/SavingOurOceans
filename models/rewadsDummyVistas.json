@@ -1,0 +1,11 @@
+[   
+        {
+            "id": "1",
+            "sponsor": "Organización1",
+            "code": "1111",
+            "pointsValue": "100",
+            "name": "Descuento pizza",
+            "type": "Like",
+            "deadLine": "12/12/2022"
+          }   
+]

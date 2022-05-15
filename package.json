@@ -1,0 +1,31 @@
+{
+  "name": "savingouroceansfrtnd",
+  "version": "1.0.0",
+  "description": "Esta es la aplicacion de Frontend de SavingOurOceans",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elchicogamer117/savingouroceansfrtnd.git"
+  },
+  "keywords": [
+    "HackTheOcean",
+    "InnovaccionVirtual",
+    "Hackathon"
+  ],
+  "author": "elchicogamer117",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elchicogamer117/savingouroceansfrtnd/issues"
+  },
+  "homepage": "https://github.com/Elchicogamer117/savingouroceansfrtnd#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
