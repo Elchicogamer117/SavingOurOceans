@@ -1,9 +1,14 @@
+body {
+    background-image:url(../img/waveOceanDown.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+    /* height: 800px; */
+    background-color: #055AFF;
+    margin: 50px;
+}
 .imagen-fondo{
     width: 4em;
-}
-
-body{
-    margin: 50px;
 }
 
 .formulario{
