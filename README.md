@@ -1,6 +1,8 @@
 # SavingOurOceans-Backend 🐳
 
+## WireFrame 🐳
 
+![WireFrame](https://user-images.githubusercontent.com/99162884/168502479-b33fb1e1-925e-4520-b7d5-c42276da3141.png)
 
 ## Herramientas 🐋
 
