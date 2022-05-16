@@ -29,7 +29,8 @@
 
 ![Equeleto de proyecto](https://user-images.githubusercontent.com/99162884/168502435-abf197f0-7cb8-4b25-a8fc-96bc1fba71d7.jpeg)
 
-
+_inspirado por el taller de Visual Thinking @visual_partner_
+ 
 
 ### Pruebas 🐳
 
