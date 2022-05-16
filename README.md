@@ -14,12 +14,12 @@
 
 ## Diseño de Solución
 
-| Vista                                | Propósito                                                                                                                                 | Interacción |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
-| ![img](image/README/1652657209202.png) | Informar al usuario de nuestra misión y hacer conciencia de lo que pasa actualmente con nuestros mantos acuíferos.                       |              |
-| ![img](image/README/1652657323232.png) | Iniciar sesión para que el usuario pueda disfrutar de sus beneficios que ha ido generando con un cambio tangible hacia el medio ambiente. |              |
-| ![img](image/README/1652657333177.png) | Incentivar al usuario a que se cree una cuenta y pueda formar parte del cambio para mejorar nuestro medio ambiente.                        |              |
-| ![img](image/README/1652657412122.png) | Hacerle ver las tareas y recompensas que existen.                                                                                          |              |
+| Vista | Propósito | Interacción |
+| ----- | --------- | ----------- |
+| ![img](image/README/1652657209202.png) | Informar al usuario de nuestra misión y hacer conciencia de lo que pasa actualmente con nuestros mantos acuíferos.               | El usuario se podrá desplazar por la página principal. Podrá interactuar con el menú de navegación, asi como con el botón de "Unirme". |
+| ![img](image/README/1652657323232.png) | Iniciar sesión para que el usuario pueda disfrutar de sus beneficios que ha ido generando con un cambio tangible hacia el medio ambiente. | Llenar campos: Correo, contraseña. Presionar el botón "Enviar consulta". O dar a la opción de registrarse. |
+| ![img](image/README/1652657333177.png) | Incentivar al usuario a que se cree una cuenta y pueda formar parte del cambio para mejorar nuestro medio ambiente.              |Llenar campos: Nombre, apellido, correo, contraseña. Seleccionar pais y estado. Presionar el botón "Enviar consulta".|
+| ![img](image/README/1652657412122.png) | Hacerle ver las tareas y recompensas que existen.                                                                             | El usuario podrá realizar determinada tarea para la obtención de puntos. También será capaz de utilizar sus puntos para conseguir recompensas, dependiendo del número de puntos que posea. |
 
 
 ### Controladores y Servicios 🐳
