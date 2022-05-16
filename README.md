@@ -1,5 +1,7 @@
 # SavingOurOceans-Backend 🐳
 
+
+
 ## Herramientas 🐋
 
 | Herramientas | Version |
@@ -19,17 +21,13 @@
 | ![img](image/README/1652657333177.png) | Incentivar al usuario a que se cree una cuenta y pueda formar parte del cambio para mejorar nuestro medio ambiente.                        |              |
 | ![img](image/README/1652657412122.png) | Hacerle ver las tareas y recompensas que existen.                                                                                          |              |
 
-## Implementación
 
-### Modelos
+### Controladores y Servicios 🐳
 
-### Controladores y Servicios
 
-### Utilidades
+### Pruebas 🐳
 
-### Pruebas
-
-Se realizaron pruebas unitarias para cada método que traerá la API.
+__Se realizaron pruebas unitarias para cada método que traerá la API.__
 
 ```js
 const ConsumeServicioApiTaskS= require('./../../lib/services/ConsumeServicioApiTaskS')
@@ -70,12 +68,63 @@ test("6.Consumir servicio post Info de Api updatePoints", ()=>{
 
 ```
 
+__Pruebas unitarias para la clase que contiene los métodos que se usarán para el llamado a API(GET Y POST)__
+
+```js
+const ApiLlamado= require('./../../lib/services/ApiLlamado')
+
+describe("Test llamado a apis ApiLlamado, que la peticón no se envie vacía", ()=>{
+    test("1.Probando metodo de llamado tipo post", ()=>{   
+        const apiPost=ApiLlamado.apiPost();
+        expect(apiPost).toBeDefined();
+    })  
+    test("2.Probando metodo de llamado tipo get, response no venga nulo", ()=>{   
+        const apiGet=ApiLlamado.apiGet();
+        expect(apiGet).toBeDefined();
+    }) 
+})
+```
+
+__Pruebas unitarias para la clase que se usa para leer los json con datos dummy que se usaron para simular datos que llegarían desde API__
+
+```js
+const Reader= require('./../../lib/utils/Reader')
+
+    test("1.Leer archivo rewads Json que no existe", ()=>{
+     const rewards = Reader.readJsonFile("rewadsDummyVistas.json"); 
+     expect(rewards).toBe(rewards)
+     })
+  
+
+
+    test("2.Leer archivo task Json que no existe", ()=>{
+        const task = Reader.readJsonFile("taskDummyVistas.json"); 
+        expect(task).toBe(task)
+        })
+
+           
+     test("3.Leer archivo user Json que no existe", ()=>{
+        const user = Reader.readJsonFile("userDummyVistas.json"); 
+        expect(user).toBe(user)
+        })
+
+
+   
+```
+
 
 __Evolución Previsible:__ 
 
 Terminar la creción de pruebas unitarias para todos los métodos de todas las APIS, para el controller que manejará la información.
 
-### Automatización de Pruebas
+Se deja construida la estructura:
+
+![image](https://user-images.githubusercontent.com/99162884/168500007-1c492649-03f5-4c81-b05f-fee09b2120bd.png)
+
+
+
+
+### Automatización de Pruebas 🐳
 
 No se incluyo automatización de pruebas, ya que se priorizaron todos los esfuerzos en las prebas unitarias para consumir los métodos de la API Task.
 
@@ -83,6 +132,3 @@ __Evolución Previsible:__
 
 Atomatización de actions github para revisión de pruebas cada que se de push.
 
-### Deployment de Aplicación
-
-`npm install`
