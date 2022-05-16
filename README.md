@@ -25,6 +25,10 @@
 ### Controladores y Servicios 🐳
 
 
+![Equeleto de proyecto](https://user-images.githubusercontent.com/99162884/168502435-abf197f0-7cb8-4b25-a8fc-96bc1fba71d7.jpeg)
+
+
+
 ### Pruebas 🐳
 
 __Se realizaron pruebas unitarias para cada método que traerá la API.__
