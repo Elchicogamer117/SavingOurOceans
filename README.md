@@ -26,7 +26,6 @@
 
 ### Controladores y Servicios 🐳
 
-
 ![Equeleto de proyecto](https://user-images.githubusercontent.com/99162884/168502435-abf197f0-7cb8-4b25-a8fc-96bc1fba71d7.jpeg)
 
 _inspirado por el taller de Visual Thinking @visual_partner_
@@ -118,6 +117,10 @@ const Reader= require('./../../lib/utils/Reader')
 
    
 ```
+### Funcionamiento
+Se presenta el resultado alcanzado
+
+![Desploimnet](https://user-images.githubusercontent.com/89102805/168504703-3bb18f43-dd5f-4607-a846-ad768e89eb52.gif)
 
 
 __Evolución Previsible:__ 
@@ -127,8 +130,6 @@ Terminar la creción de pruebas unitarias para todos los métodos de todas las A
 Se deja construida la estructura:
 
 ![image](https://user-images.githubusercontent.com/99162884/168500007-1c492649-03f5-4c81-b05f-fee09b2120bd.png)
-
-
 
 
 ### Automatización de Pruebas 🐳
