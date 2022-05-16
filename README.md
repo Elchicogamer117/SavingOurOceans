@@ -1,4 +1,4 @@
-# SavingOurOceans-Backend 🐳
+# SavingOurOceans-FrontEnd 🐳
 
 Hola nosotros somos el equipo de ```EXPLORERS H2O``` 🐟
 <img align="right" height="200px" src="https://www.pngplay.com/wp-content/uploads/11/Mantine-Pokemon-Background-PNG.png" alt="charmander" />
@@ -174,4 +174,15 @@ No se incluyo automatización de pruebas, ya que se priorizaron todos los esfuer
 __Evolución Previsible:__ 
 
 Atomatización de actions github para revisión de pruebas cada que se de push.
+
+
+
+
+
+## Colaboradores
+- [@felixVelazco](https://github.com/felixVelazco) 🐠
+- [@ErickCasGlez](https://github.com/ErickCasGlez) 🦐
+- [@Elchicogamer117](https://github.com/Elchicogamer117) 🐡
+- [@AliciaGaona](https://github.com/AliciaGaona) 🦑
+- [@OlafRuv](https://github.com/OlafRuv) 🐙
 
