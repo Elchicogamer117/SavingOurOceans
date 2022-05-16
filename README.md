@@ -22,10 +22,10 @@
 | ![img](image/README/1652657412122.png) | Hacerle ver las tareas y recompensas que existen.                                                                                          |              |
 
 
-### Controladores y Servicios
+### Controladores y Servicios 🐳
 
 
-### Pruebas
+### Pruebas 🐳
 
 __Se realizaron pruebas unitarias para cada método que traerá la API.__
 
@@ -124,7 +124,7 @@ Se deja construida la estructura:
 
 
 
-### Automatización de Pruebas
+### Automatización de Pruebas 🐳
 
 No se incluyo automatización de pruebas, ya que se priorizaron todos los esfuerzos en las prebas unitarias para consumir los métodos de la API Task.
 
